@@ -24,5 +24,7 @@ jobs:
 
     - name: Build
       run: |
+        npm install phantomjs -g
+        npm install grunt-cli -g
         npm install
         grunt build
